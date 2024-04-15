@@ -6,6 +6,7 @@ body
     font-optical-sizing: auto;
     font-weight:400 ;
     font-style: normal;
+    font-size: 20px;
 }
 
 .header 
@@ -47,19 +48,6 @@ img
     border-radius: 10%;
 }
 
-.box
-{
-    width: 1160px;
-    height: 570px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 10px;
- 
-}
-
 
 section
 {
@@ -71,40 +59,55 @@ section
  
 }
 
-
-.flexx
+.box
 {
-    display: flex;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.box2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:hsl(0, 0%, 12%);
+    margin: 10px;
 }
 
 .container1
 {
-    width: 600px;
-    height: 500px;
     margin-top: 50px;
-    margin-left: 30px;
-    font-size: 90px;
+    width: 650px;
+    height: 400px;
+    font-size: 50px;
     color: aliceblue;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: -50px;
+}
+
+.container1 span
+{
+    font-size: 90px;
+    color:  hsl(75, 94%, 57%);
+}
+
+
+.container1 h6
+{
+    font-size: 20px;
+    margin-left: 370px;
+    margin-top: 30px;
 }
 
 hr
 {
-    margin-left: 810px;
+    margin-left: -5px;
     width: 400px;
-    border-width: 2px;
+    border-width: 1px;
     border-color: hsl(75, 94%, 57%);
-    border-radius: 50%;
-}
-
-
-.hr1
-{
-    margin-left: 10px;
-    width: 400px;
-    border-width: 2px;
-    border-color: hsl(75, 94%, 57%);
-    border-radius: 50%;
-    margin-top: -105px;
 }
 
 span:hover
@@ -112,65 +115,105 @@ span:hover
     color:hsl(75, 94%, 57%);
 }
 
-.container1 ul p:hover
+.container3 ul p:hover
 {
     color:  hsl(75, 94%, 57%);
 }
 
 .container2
 {
-    width: 250px;
-    height: 280px;
+    width: 480px;
+    height: 560px;
     background-color: hsl(0, 0%, 12%);;
-    margin: 60px;
-    margin-top: 40px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
-.container2 img
+.container2 span
 {
-    width: 250px;
-    height: 280px;
-    margin: 0px;
-    margin-top: 0px;
-    border-radius: 10px;
+    font-size: 70px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.container2 p
+{
+    font-size: 22px;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 40px;
 }
 
 .container3
 {
-    width: 250px;
-    height: 100px;
-    color:hsl(75, 94%, 57%);
-    margin-top: 50px;
+    width: 550px;
+    height: 480px;
+    background-color: hsl(0, 0%, 12%);;
     border-radius: 10px;
-
+    background-color:hsl(0, 0%, 8%);
+    margin-top: 30px;
 }
 
-.container3:hover
+.container3 p 
+{
+    font-size: 30px;
+    color: hsl(75, 94%, 57%);
+}
+
+.container3 li
+{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#projects-heading
+{
+    font-size: 60px;
+    color: rgb(252, 249, 249);
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.container4
 {
     width: 250px;
-    height: 100px;
-    background-color:hsl(75, 94%, 57%);
-    background-image: linear-gradient(hsl(75, 94%, 57%),hsl(75, 82%, 77%));
-    margin-top: 50px;
+    height: 80px;
     border-radius: 10px;
-    color: black;
+    color:hsl(75, 94%, 57%);
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: center;
 }
 
-.container2 img:hover::before
+.container4:hover
+{
+    width: 250px;
+    height: 80px;
+    background-color:hsl(75, 94%, 57%);
+    background-image: linear-gradient(hsl(75, 94%, 57%),hsl(75, 82%, 77%));
+    border-radius: 10px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.img4
 {
     width: 250px;
     height: 280px;
-    margin: 0px;
-    margin-top: 0px;
     border-radius: 10px;
-    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 
 .contact
 {
     width: 400px;
     height: 300px;
+    margin-top: -40px;
 }
 
 .contact img
@@ -180,7 +223,6 @@ span:hover
     border-radius: 50%;
     margin-left: 30px;
 }
-
 
 #info
 {
@@ -198,7 +240,11 @@ a:hover
     color:hsl(75, 94%, 57%);
 }
 
-
+.flexx
+{
+    display: flex;
+    margin-bottom: 10px;
+}
 
 
 
